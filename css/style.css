@@ -15,12 +15,12 @@ ul,li{
     margin: 0;
 }
 
-.section{
+.container{
     width: 1158px;
     padding-left: 12px;
     padding-right: 12px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 :root {
