@@ -150,6 +150,8 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
 
+    border-radius: 4px;
+
     color: var(--main-color);
     cursor: pointer;
 
@@ -247,6 +249,9 @@ img{
 
     margin-top: 32px;
     margin-bottom: 8px;
+
+    padding-left: 65px;
+    padding-right: 65px;
 }
 
 .card-descr{
@@ -259,6 +264,9 @@ img{
     color: var(--main-text-color);
 
     padding-bottom: 32px;
+
+    padding-left: 68px;
+    padding-right: 68px;
 }
 
 /* ----------footer page----------- */
@@ -298,10 +306,16 @@ img{
 
 /* -----------------------portfolio page----------------- */
 /* buttons */
+.offer-buttons{
+    padding-top: 96px;
+    padding-bottom: 84px;
+
+    margin-bottom: 72px;
+}
+
+
 .offer-btn{
 
-    padding: 12px 24px;
-     
     background: var(--second-main-color);
     border: 1px solid var(--border-menu-btn);
 
@@ -312,9 +326,12 @@ img{
     line-height: 1.5;
 
     letter-spacing: 0.04em;
+    border-radius: 4px;
 
     color: var(--logo-web-color);
     cursor: pointer;
+
+    padding: 12px 24px;
 }
 
 .offer-btn:active,
@@ -325,9 +342,19 @@ img{
     color: var(--main-color);
 }
 
+.link-card{
+    margin-bottom: 48px;
+}
+
+.link-card:nth-child(-n+3){
+    padding-bottom: 120px;
+}
+
 .offer-link{
     text-decoration: none;
     color: var(--main-color);
+
+    
 }
 
 .offer-heading{ 
@@ -337,6 +364,11 @@ img{
 
     letter-spacing: 0.02em;
     color: var(--main-color-dark);
+
+
+    padding-left: 16px;
+    margin-top: 32px;
+    margin-bottom: 8px;
 }
 
 .offer-descr{
@@ -347,4 +379,7 @@ img{
     letter-spacing: 0.02em;
 
     color: var(--main-text-color);
+
+    padding-left: 16px;
+    padding-bottom: 32px;
 }
