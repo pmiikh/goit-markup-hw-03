@@ -10,15 +10,18 @@ h3,
 h4,
 h5,
 h6,
-p,
+p{
+    margin: 0;
+}
+
 ul,li{
     margin: 0;
+    padding: 0;
 }
 
 .container{
     width: 1158px;
-    padding-left: 12px;
-    padding-right: 12px;
+    padding: 0 15px;
     margin: 0 auto;
     /* outline: 2px solid red; */
 }
@@ -72,6 +75,34 @@ body{
 }
 
 /* -------------------navigation----------------- */
+.header-flex{
+    display: flex;
+    align-items: center;
+    padding-left: 152px;
+}
+
+.nav-flex{
+    display: flex;
+    align-items: center;
+}
+
+.nav-list-flex{
+    display: flex;
+    gap: 40px;
+    margin-left: 72px;  
+}
+
+.address-flex{
+    margin-left: auto;
+}
+
+.address-flex-list{
+    display: flex;
+    gap: 40px;
+}
+
+
+
 .nav-link{
     font-weight: 500;
     font-size: 16px;
@@ -122,6 +153,12 @@ body{
     background:  var(--main-color-dark);
 }
 
+.main-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main-title{
     font-weight: 700;
     font-size: 56px;
@@ -135,13 +172,16 @@ body{
     padding-top: 188px;
     margin-bottom: 48px;
 
+    max-width: 496px;
+
     
 }
 
 .main-btn{
     background-color: var(--logo-web-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    border: none;
+
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
@@ -151,6 +191,8 @@ body{
     letter-spacing: 0.04em;
 
     border-radius: 4px;
+    min-width: 169px;
+    height: 56px;
 
     color: var(--main-color);
     cursor: pointer;
@@ -168,6 +210,16 @@ body{
 
 /* -------------properities--------------------- */
 
+.prop-flex{
+    display: flex;
+    padding: 120px 156px ;
+    justify-content: space-around; /*-----???*/
+}
+
+/* .prop-list-flex{
+    display: flex;
+    flex-direction: column;
+} */
 
 .prop-heading{
     font-weight: 500;
@@ -177,7 +229,9 @@ body{
     letter-spacing: 0.02em;
     color: var(--main-color-dark);
 
-    padding-top: 120px;
+    max-width: 264px;
+
+    /* padding-top: 120px; */
 }
 
 .prop-p{
@@ -187,7 +241,9 @@ body{
 
     letter-spacing: 0.02em;
 
-    padding-bottom: 120px;
+    
+/* 
+    padding-bottom: 120px; */
 }
 
 /* ------------what we are doing----------- */
@@ -209,6 +265,14 @@ img{
     display: block;
 }
 
+.occup-list-flex{
+    display: flex;
+    gap: 24px;
+
+    padding-bottom: 120px;
+    width: 1128px;
+}
+
 /*-----------Our team-----------------  */
 
 
@@ -216,6 +280,15 @@ img{
     background-color: var(--second-main-color);
 
     padding-top: 120px;
+}
+
+.team-flex{
+    display: flex;
+    gap:24px;
+
+    
+    padding:76px 156px 120px 156px;
+
 }
 
 
@@ -228,14 +301,15 @@ img{
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--main-color-dark);
-
-    margin-bottom: 72px;
 }
 
 .card{
     background-color: var(--main-color);
-
+    width: calc(100% - 72) / 4;
     
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
 }
 
 .card-name{
@@ -277,6 +351,10 @@ img{
     top: 2280px; */
 
     background: var(--main-color-dark);
+}
+
+.footer-flex{
+    padding: 100px 0 100px 156px;
 }
 
 .footer-logo{
