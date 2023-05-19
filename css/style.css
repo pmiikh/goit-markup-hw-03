@@ -55,7 +55,7 @@ body{
 /* ------------header----------------------------- */
 .header{
     border-bottom: 1px solid var(--border-menu-btn);
-    padding: 15px 0;
+    
 }
 /* --------------------logo------------------------*/
 .logo{
@@ -85,6 +85,7 @@ body{
     display: flex;
     align-items: center;
     padding-left: 152px;
+    padding: 15px 0;
 }
 
 .nav-flex{
@@ -216,13 +217,13 @@ body{
 }
 
 /* -------------properities--------------------- */
-.prop-flex{
+.prop-page{
     padding: 120px 0;
 }
 
+
 .prop-flex{
     display: flex;
-    padding: 120px 0;
     gap: 24px; /*-----???*/
 }
 
@@ -415,6 +416,7 @@ img{
     display: flex;
     justify-content: center;
     gap: 24px;
+    margin-bottom: 72px;
 }
 
 
@@ -443,7 +445,7 @@ img{
 .offer-btn:hover,
 .offer-btn:focus
 {
-    border: var(--hover-color);
+    border: 1px solid transparent;
     background-color: var(--hover-color);
     color: var(--main-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -454,17 +456,16 @@ img{
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    padding-top: 72px;
-    
 
 }
 
 .link-card-item{
     width: calc((100% - 48px)/3);
-    border: 1px solid var(--border-menu-btn);
+
 
     display: flex;
 }
+
 
 .link-card{
     display: flex;
@@ -479,6 +480,13 @@ img{
     
 }
 
+
+.offer-info{
+    padding: 32px 16px;
+    border: 1px solid var(--border-menu-btn);
+    border-top: none;
+}
+
 .offer-heading{ 
     font-weight: 500;
     font-size: 20px;
@@ -487,9 +495,6 @@ img{
     letter-spacing: 0.02em;
     color: var(--main-color-dark);
 
-
-    padding-left: 16px;
-    margin-top: 32px;
     margin-bottom: 8px;
 }
 
@@ -501,7 +506,4 @@ img{
     letter-spacing: 0.02em;
 
     color: var(--main-text-color);
-
-    padding-left: 16px;
-    padding-bottom: 32px;
 }
