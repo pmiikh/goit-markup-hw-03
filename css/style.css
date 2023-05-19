@@ -99,11 +99,13 @@ body{
 
 .address-flex{
     margin-left: auto;
+    padding: 24px 0;
 }
 
 .address-flex-list{
     display: flex;
     gap: 40px;
+    
 }
 
 
