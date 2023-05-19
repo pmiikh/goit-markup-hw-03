@@ -21,8 +21,7 @@ ul,li{
 
 .container{
     width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 15px 0;
     margin: 0 auto;
     /* outline: 2px solid red; */
 }
@@ -86,8 +85,6 @@ body{
 .header-flex{
     display: flex;
     align-items: center;
-    padding-left: 152px;
-    padding: 15px 0;
 }
 
 .nav-flex{
@@ -160,8 +157,7 @@ body{
     text-align: center; */
 
     background:  var(--main-color-dark);
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding: 180px 0;
 }
 
 .main-flex{
