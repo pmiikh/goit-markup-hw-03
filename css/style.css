@@ -99,7 +99,6 @@ body{
 
 .address-flex{
     margin-left: auto;
-    padding: 24px 0;
 }
 
 .address-flex-list{
@@ -117,6 +116,8 @@ body{
     letter-spacing: 0.02em;
 
     color: var(--main-color-dark);
+
+    padding: 24px 0;
 }
 
 .nav-link:hover, 
