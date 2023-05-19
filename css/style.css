@@ -55,6 +55,7 @@ body{
 /* ------------header----------------------------- */
 .header{
     border-bottom: 1px solid var(--border-menu-btn);
+    padding: 0 15px;
     
 }
 /* --------------------logo------------------------*/
@@ -177,7 +178,7 @@ body{
 
     color: var(--main-color);
 
-    padding-top: 188px;
+ 
     margin-bottom: 48px;
 
     max-width: 496px;
@@ -207,8 +208,6 @@ body{
 
     padding: 16px 32px;
     min-width: 169px;
-
-    margin-bottom: 188px;
 }
 
 .main-btn:hover,
